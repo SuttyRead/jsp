@@ -1,26 +1,28 @@
 <%--
   Created by IntelliJ IDEA.
   User: Roman
-  Date: 28.08.2018
-  Time: 20:25
+  Date: 29.08.2018
+  Time: 10:49
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Jsp</title>
 </head>
 <body>
-<h1>
 
-    <%
-        String name = "Hello";
-        System.out.print(name);
-    %>
+<p>
 
-    <%=name + ", World"%>
-    ${name}
+    <%! private String name;%>
 
-</h1>
+    <%!private int age;%>
+    <%  %>
+    <%for (int i = 0; i < 10; i++) {%>
+            Hello World<br>
+        <%}%>
+
+</p>
+
 </body>
 </html>
