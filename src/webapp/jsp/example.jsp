@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.util.Date" %><%--
   Created by IntelliJ IDEA.
   User: Roman
   Date: 29.08.2018
@@ -13,14 +13,17 @@
 <body>
 
 <p>
-
+    <%--java initialize--%>
     <%! private String name;%>
-
     <%!private int age;%>
-    <%  %>
+
+    <%--java code--%>
     <%for (int i = 0; i < 10; i++) {%>
-            Hello World<br>
-        <%}%>
+    Hello World<br>
+    <%}%>
+
+    <%--Java expression--%>
+    <%=new Date()%>
 
 </p>
 
